@@ -25,9 +25,9 @@ defmodule ExQueb.Mixfile do
 
   defp deps do
     [
-      {:ecto, "~> 2.0"},
-      {:ex_doc, "~> 0.18.0", only: :dev},
-      {:earmark, "~> 1.1", only: :dev},
+      {:ecto, "~> 3.0"},
+      {:ex_doc, "~> 0.21.2", only: :dev},
+      {:earmark, "~> 1.4", only: :dev},
     ]
   end
 
